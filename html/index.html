@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casino Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 12px;
+            display: inline-block;
+        }
+        nav ul li a:hover {
+            background-color: #555;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- Home Section -->
+<section id="home">
+    <h1>Welcome to Our Casino</h1>
+    <p>Enjoy the best online gaming experience with us.</p>
+</section>
+
+<!-- About Section -->
+<section id="about">
+    <h1>About Us</h1>
+    <p>We are a leading online casino offering a wide range of games and betting options.</p>
+</section>
+
+<!-- Services Section -->
+<section id="services">
+    <h1>Our Services</h1>
+    <div>
+        <h2>Live casino experience</h2>
+        <p>Immerse yourself in an authentic casino atmosphere from your home.</p>
+    </div>
+    <div>
+        <h2>Online slot games</h2>
+        <p>Spin your way to exciting wins with our diverse slot selection.</p>
+    </div>
+    <div>
+        <h2>Sports betting</h2>
+        <p>Place your bets on your favorite sports and enjoy the action.</p>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <h1>Get in Touch</h1>
+    <form>
+        <label for="name">Name *</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email address *</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone number *</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="message">Message</label><br>
+        <textarea id="message" name="message"></textarea><br><br>
+
+        <input type="checkbox" id="consent" name="consent" required>
+        <label for="consent">I allow this website to store my submission so they can respond to my inquiry. *</label><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+    <p>Email: </p>
+    <p>Location: MKAD, Moscow, 101000</p>
+</section>
+<a class="back" href="../index.html">← Back to Home</a>
+</body>
+</html>
